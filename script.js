@@ -123,18 +123,18 @@ const countries = [
         info:'Iceland is a Nordic island country in the North Atlantic Ocean, with Reykjavik as its capital. It is known for its stunning landscapes, including glaciers and geysers. The economy relies on fishing, tourism, and renewable energy. Iceland has a small population and is renowned for its high standard of living and gender equality.'
     },
     {name:'France',
-        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/800px-Flag_of_France.svg.png',
+        img:`https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/800px-Flag_of_France.svg.png`,
         Category:'Paris',
         popu:'67.75 million (2021)',
         info:'France is a European country known for its rich culture and history. Paris is its capital and largest city. The economy is diverse, with key sectors including manufacturing, agriculture, tourism, and services. France is famous for its landmarks, cuisine, and contributions to art and literature.'
     }
 ]
 
-countries.forEach((countryName)=>{
-    countryName.names =`<div class="text-center"><img class="mx-auto" src="${countries.img}" width="40%" alt=""></div><h1 class="text-center" style="color: blue; margin-bottom: 30px;">${countries.name}</h1>`
-    countryName.Category = `<div class="d-flex mb-2"><div><span class="fs-4 mt-5">Capital:</span><br><span class="fs-3 fw-bold text-primary">${countryName.Category}</span></div><div class="ms-auto"><span class="fs-4 mt-5">Population :</span><br><span class="fs-3 fw-bold text-primary"> ${countryName.popu}</span></div></div>`;
-    countryName.infom = `<div class="fw-bold">${countries.info}</div>`;
-})
+countries.forEach((country) => {
+    country.names = `<div class="text-center"><img class="mx-auto" src="${country.img}" width="40%" alt=""></div><h1 class="text-center" style="color: blue; margin-bottom: 30px;">${country.name}</h1>`;
+    country.Category = `<div class="d-flex mb-2"><div><span class="fs-4 mt-5">Capital:</span><br><span class="fs-3 fw-bold text-primary">${country.Category}</span></div><div class="ms-auto"><span class="fs-4 mt-5">Population :</span><br><span class="fs-3 fw-bold text-primary"> ${country.popu}</span></div></div>`;
+    country.infos =`<div class="fw-bold">${country.info}</div>`;
+});
 
 // Function to render filtered results
 function renderResults(results) {
@@ -157,6 +157,7 @@ function renderResults(results) {
             const resultItems = document.createElement("div");
             const countryCategory = document.createElement("div");
             const countryInfo = document.createElement("div");
+            // const imgShow = document.createElement('div')
             resultItem.textContent = item.name;
             resultsContainer.appendChild(resultItem);
 
@@ -166,11 +167,13 @@ function renderResults(results) {
                 count.style.display = "block";
         
                 countryCategory.innerHTML = item.Category;
-                resultItems.innerHTML = item.name1;
-                countryInfo.innerHTML = item.infom;
+                resultItems.innerHTML = item.names;
+                // imgShow.innerHTML = item.img;
+                countryInfo.innerHTML = item.infos;
         
                 countryCard.innerHTML = "";
                 
+                // countryCard.appendChild(imgShow)
                 countryCard.appendChild(resultItems);
                 countryCard.appendChild(countryCategory);
                 countryCard.appendChild(countryInfo);
