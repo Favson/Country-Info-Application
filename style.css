@@ -5,7 +5,7 @@
   width: 75%;
   margin: 0 auto;
 }
-/* .scrollable-container {
+.scrollable-container {
     width: 565px;
     max-height: 300px;
     overflow-y: auto;
@@ -21,6 +21,6 @@
   }
   ::-webkit-scrollbar-thumb {
     background: gold;
-} */
+}
 
   

@@ -170,7 +170,7 @@ function renderResults(results) {
                 countryInfo.innerHTML = item.infom;
         
                 countryCard.innerHTML = "";
-        
+                
                 countryCard.appendChild(resultItems);
                 countryCard.appendChild(countryCategory);
                 countryCard.appendChild(countryInfo);
