@@ -34,38 +34,44 @@ const countries = [
     },
     {name:'Canada',
         img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFlag_of_Canada.svg&psig=AOvVaw0CupJuvhJBo3CtfbXRLtea&ust=1708597772086000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMiIpuqcvIQDFQAAAAAdAAAAABAE',
+        Category: 'Ottawa',
         popu:'38.25 million (2021)',
         info:'Canada is a North American country known for its vast landscapes, multicultural society, and strong economy. Ottawa is the capital, while Toronto is the largest city. Canada is famous for its natural beauty, including the Rocky Mountains, Niagara Falls, and vast forests. It has a diverse population with English and French as official languages. The economy is driven by industries like natural resources, manufacturing, and technology. Canada is also known for its progressive policies on healthcare, education, and social welfare.'
     },
     {name:'Italy',
         img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fuxwing.com%2Fitaly-flag-icon%2F&psig=AOvVaw0-fuah-W4EYCwCK7fLHDA2&ust=1708597910009000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCk2q-dvIQDFQAAAAAdAAAAABAE',
         popu:'59.11 million (2021)',
+        Category: 'Rome',
         info:'Italy is a European country known for its rich history, art, and culture. Rome is the capital city and the center of ancient Roman civilization. Italy is famous for its delicious cuisine, including pasta, pizza, and gelato Itis also known for iconic landmarks such as the Colosseum, the Leaning Tower of Pisa, and the Vatican City. Italy has a diverse landscape, from the Alps in the north to the beautiful coastlines of the Mediterranean Sea. The economy is driven by industries like fashion, automotive manufacturing, and tourism. Italy has a significant influence on global culture, particularly in areas such as art, fashion, and design'
     },
     {name:'Australia',
-        img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Nigeria_%2528state%2529.svg&psig=AOvVaw0X_u2olwh2MIqBO_QB2vdq&ust=1708592185480000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJje2NaIvIQDFQAAAAAdAAAAABAE',
-        popu:'213.4 million (2021)',
-        info:'Nigeria is a country located in West Africa, bordering the Gulf of Guinea to the south. It is the most populous country in Africa and the seventh most populous country in the world. Nigeria is known for its diverse cultures, ethnic groups, and languages, with over 250 ethnic groups and languages spoken. Abuja is the capital city of Nigeria, while Lagos is its largest city and commercial capital. Nigeria has a rich cultural heritage, with various traditional festivals, music, dance, and cuisine. The Nigerian economy is one of the largest in Africa, driven primarily by oil and gas exports. However, the country also faces challenges such as corruption, poverty, infrastructure deficits, and security concerns, particularly in the northeastern region where the Boko Haram insurgency has been active.'
+        img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Australia.svg&psig=AOvVaw3k8V59LVZnj34oLeizKs0K&ust=1708600229495000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKiI3_6lvIQDFQAAAAAdAAAAABAE',
+        Category: 'Canberra',
+        popu:'25.69 million (2021)',
+        info:'Australia is a continent and country in the southern hemisphere, known for its unique wildlife and stunning landscapes. Its capital is Canberra, and Sydney is the largest city. The economy is diverse, with key sectors including mining, agriculture, and tourism. Australia has a multicultural society and is famous for outdoor activities and sports.'
     },
     {name:'Mali',
-        img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Nigeria_%2528state%2529.svg&psig=AOvVaw0X_u2olwh2MIqBO_QB2vdq&ust=1708592185480000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJje2NaIvIQDFQAAAAAdAAAAABAE',
-        popu:'213.4 million (2021)',
-        info:'Nigeria is a country located in West Africa, bordering the Gulf of Guinea to the south. It is the most populous country in Africa and the seventh most populous country in the world. Nigeria is known for its diverse cultures, ethnic groups, and languages, with over 250 ethnic groups and languages spoken. Abuja is the capital city of Nigeria, while Lagos is its largest city and commercial capital. Nigeria has a rich cultural heritage, with various traditional festivals, music, dance, and cuisine. The Nigerian economy is one of the largest in Africa, driven primarily by oil and gas exports. However, the country also faces challenges such as corruption, poverty, infrastructure deficits, and security concerns, particularly in the northeastern region where the Boko Haram insurgency has been active.'
+        img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Mali.svg&psig=AOvVaw0EptxYiHr1_po-5z5XqgPr&ust=1708600306145000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCXpbWmvIQDFQAAAAAdAAAAABAE',
+        Category: 'Bamako',
+        popu:'21.9 million (2021)',
+        info:'Mali is a landlocked country in West Africa with Bamako as its capital. It has a diverse population and French as the official language. The economy relies on agriculture and mineral resources like gold. Mali faces challenges such as political instability and security concerns, especially in the north.'
     },
     {name:'Russia',
-        img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Nigeria_%2528state%2529.svg&psig=AOvVaw0X_u2olwh2MIqBO_QB2vdq&ust=1708592185480000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJje2NaIvIQDFQAAAAAdAAAAABAE',
-        popu:'213.4 million (2021)',
-        info:'Nigeria is a country located in West Africa, bordering the Gulf of Guinea to the south. It is the most populous country in Africa and the seventh most populous country in the world. Nigeria is known for its diverse cultures, ethnic groups, and languages, with over 250 ethnic groups and languages spoken. Abuja is the capital city of Nigeria, while Lagos is its largest city and commercial capital. Nigeria has a rich cultural heritage, with various traditional festivals, music, dance, and cuisine. The Nigerian economy is one of the largest in Africa, driven primarily by oil and gas exports. However, the country also faces challenges such as corruption, poverty, infrastructure deficits, and security concerns, particularly in the northeastern region where the Boko Haram insurgency has been active.'
+        img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Russia.svg&psig=AOvVaw3Dgl4iC56G19chsK_KAJ4M&ust=1708600492062000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKDClfumvIQDFQAAAAAdAAAAABAE',
+        Category: 'Moscow',
+        popu:'143.4 million (2021)',
+        info:'Russia is the largest country in the world, spanning Eastern Europe and Northern Asia, with Moscow as its capital. It is known for its rich history, diverse culture, and significant global influence. The economy relies on industries like oil, natural gas, and manufacturing. Russia has a diverse population and is a permanent member of the United Nations Security Council.'
     },
     {name:'Uganda',
-        img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Nigeria_%2528state%2529.svg&psig=AOvVaw0X_u2olwh2MIqBO_QB2vdq&ust=1708592185480000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJje2NaIvIQDFQAAAAAdAAAAABAE',
-        popu:'213.4 million (2021)',
-        info:'Nigeria is a country located in West Africa, bordering the Gulf of Guinea to the south. It is the most populous country in Africa and the seventh most populous country in the world. Nigeria is known for its diverse cultures, ethnic groups, and languages, with over 250 ethnic groups and languages spoken. Abuja is the capital city of Nigeria, while Lagos is its largest city and commercial capital. Nigeria has a rich cultural heritage, with various traditional festivals, music, dance, and cuisine. The Nigerian economy is one of the largest in Africa, driven primarily by oil and gas exports. However, the country also faces challenges such as corruption, poverty, infrastructure deficits, and security concerns, particularly in the northeastern region where the Boko Haram insurgency has been active.'
+        img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFlag_of_Uganda.svg&psig=AOvVaw1wKLtM16T5i-LMgucZD1EU&ust=1708600607333000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJi4jbKnvIQDFQAAAAAdAAAAABAE',
+        Category: 'Kampala',
+        popu:'45.85 million (2021)',
+        info:'Uganda is a landlocked country in East Africa, with Kampala as its capital. It has diverse landscapes and a rich cultural heritage. The economy relies heavily on agriculture. Despite challenges, Uganda has made progress in areas like infrastructure and healthcare.'
     },
     {name:'South Africa',
         img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Nigeria_%2528state%2529.svg&psig=AOvVaw0X_u2olwh2MIqBO_QB2vdq&ust=1708592185480000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJje2NaIvIQDFQAAAAAdAAAAABAE',
         popu:'213.4 million (2021)',
-        info:'Nigeria is a country located in West Africa, bordering the Gulf of Guinea to the south. It is the most populous country in Africa and the seventh most populous country in the world. Nigeria is known for its diverse cultures, ethnic groups, and languages, with over 250 ethnic groups and languages spoken. Abuja is the capital city of Nigeria, while Lagos is its largest city and commercial capital. Nigeria has a rich cultural heritage, with various traditional festivals, music, dance, and cuisine. The Nigerian economy is one of the largest in Africa, driven primarily by oil and gas exports. However, the country also faces challenges such as corruption, poverty, infrastructure deficits, and security concerns, particularly in the northeastern region where the Boko Haram insurgency has been active.'
+        info:'South Africa is a country in southern Africa, with Pretoria as the administrative capital and Johannesburg as the largest city. It is known for its diverse cultures, stunning landscapes, and history of apartheid. The economy is mixed, with key sectors including mining, agriculture, manufacturing, and services. South Africa faces challenges like inequality, unemployment, crime, and HIV/AIDS prevalence.'
     },
     {name:'Japan',
         img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Nigeria_%2528state%2529.svg&psig=AOvVaw0X_u2olwh2MIqBO_QB2vdq&ust=1708592185480000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJje2NaIvIQDFQAAAAAdAAAAABAE',
