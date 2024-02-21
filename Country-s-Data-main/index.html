@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret FILE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css" />
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+</head>
+
+<body class="body">
+    <h1 class="text-center we">Welcome to My Database of all Countries</h1>
+    <div class="category1">
+        <div class="bg-danger search ">
+            <div class=" inp">
+
+                <input type="text" placeholder="Search..." id="searchInput" class="input ps-4 shadow-none" />
+                <!-- <button class="ico mb-2 me-auto" id="searchButton"><i class="fas fa-search"></i></button> -->
+            </div>
+        </div>
+
+        <div class="container text-white w-50">
+            <div class="scrollable-container">
+                <div id="resultsContainer" class="country-list text-start fs-4 ms-2"></div>
+            </div>
+        </div>
+        
+
+        <p class="text-light" id="noResultsMessage" style="display: none;">No results found</p>
+    </div>
+
+    <div class="card-container">
+        <div class="card" id="card">
+            <!-- Card content will be dynamically updated here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

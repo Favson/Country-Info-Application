@@ -1,0 +1,26 @@
+#inputSearch{
+  text-transform: capitalize;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: 0 auto;
+}
+/* .scrollable-container {
+    width: 565px;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 30px;
+    border: 2px solid rebeccapurple;
+}
+::-webkit-scrollbar {
+    width: 7px
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:rebeccapurple;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: gold;
+} */
+
+  

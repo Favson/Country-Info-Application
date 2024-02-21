@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="col-lg-4 col-12 mx-5 my-5 ps-5 shadow-lg" style="height: 455px; border-radius: 20px; overflow:scroll">
+        <div class="text-center">
+            <h1 class="text-info py-2 text-center">Country Searcher</h1>
+            <input type="text" placeholder="Country Name" class="shadow-none text-center col-9 border-primary" id="inputSearch">
+        </div>
+        <div class="scrollable-container text-light col-lg-12">
+            <div id="resultsContainer" class="text-body-tertiary" style="cursor: pointer;">
+            </div>
+        </div>
+    </div>
+
+    <div class="card-container">
+        <div class="card" id="card">
+            <!-- Card content will be dynamically updated here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
