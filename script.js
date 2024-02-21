@@ -152,9 +152,30 @@ function renderResults(results) {
         // document.getElementById('errMsg').style.display = 'none';
         // eroor.style.display = 'none'
         results.forEach(item => {
+            const countryCard = document.getElementById("countryCard");
             const resultItem = document.createElement('div');
+            const resultItems = document.createElement("div");
+            const countryCategory = document.createElement("div");
+            const countryInfo = document.createElement("div");
             resultItem.textContent = item.name;
             resultsContainer.appendChild(resultItem);
+
+            resultItem.addEventListener("click", () => {
+                let count = document.getElementById("count");
+                // alert(item.Category);
+                count.style.display = "block";
+        
+                countryCategory.innerHTML = item.Category;
+                resultItems.innerHTML = item.name1;
+                countryInfo.innerHTML = item.infom;
+        
+                countryCard.innerHTML = "";
+        
+                countryCard.appendChild(resultItems);
+                countryCard.appendChild(countryCategory);
+                countryCard.appendChild(countryInfo);
+            });
+            resultItem.style.cursor = "pointer"; 
         });
     }
 }
