@@ -132,7 +132,8 @@ const countries = [
 
 countries.forEach((countryName)=>{
     countryName.names =`<div class="text-center"><img class="mx-auto" src="${countries.img}" width="40%" alt=""></div><h1 class="text-center" style="color: blue; margin-bottom: 30px;">${countries.name}</h1>`
-    country.Category = `<div class="d-flex mb-2"><div><span class="fs-4 mt-5">Capital:</span><br><span class="fs-3 fw-bold text-primary">${country.Category}</span></div><div class="ms-auto"><span class="fs-4 mt-5">Population :</span><br><span class="fs-3 fw-bold text-primary"> ${country.popu}</span></div></div>`;
+    countryName.Category = `<div class="d-flex mb-2"><div><span class="fs-4 mt-5">Capital:</span><br><span class="fs-3 fw-bold text-primary">${countryName.Category}</span></div><div class="ms-auto"><span class="fs-4 mt-5">Population :</span><br><span class="fs-3 fw-bold text-primary"> ${countryName.popu}</span></div></div>`;
+    countryName.infom = `<div class="fw-bold">${countries.info}</div>`;
 })
 
 // Function to render filtered results
