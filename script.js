@@ -10,21 +10,25 @@ console.log(Nigeria);
 const countries = [
     {name:'Afganistan',
         img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFlag_of_Afghanistan.svg&psig=AOvVaw09pjCbuUJ3MqXZCOzEp0Wd&ust=1708592810380000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCbiLGKvIQDFQAAAAAdAAAAABAE',
+        Category : 'Kabul',
         popu:'40.1 million (2021)',
         info:' Afghanistan is a landlocked country in South Asia with Kabul as its capital. It has a diverse population with Pashtuns, Tajiks, Hazaras, and others, speaking Pashto and Dari. The country has faced conflicts, including Soviet invasion and Taliban rule, leading to ongoing instability, terrorism, and poverty. Efforts for peace involve negotiations with the Taliban and international aid.'
     },
     {name:'Nigeria',
         img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Nigeria_%2528state%2529.svg&psig=AOvVaw0X_u2olwh2MIqBO_QB2vdq&ust=1708592185480000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJje2NaIvIQDFQAAAAAdAAAAABAE',
+        Category: 'Abuja',
         popu:'213.4 million (2021)',
         info:'Nigeria is a country located in West Africa, bordering the Gulf of Guinea to the south. It is the most populous country in Africa and the seventh most populous country in the world. Nigeria is known for its diverse cultures, ethnic groups, and languages, with over 250 ethnic groups and languages spoken. Abuja is the capital city of Nigeria, while Lagos is its largest city and commercial capital. Nigeria has a rich cultural heritage, with various traditional festivals, music, dance, and cuisine. The Nigerian economy is one of the largest in Africa, driven primarily by oil and gas exports. However, the country also faces challenges such as corruption, poverty, infrastructure deficits, and security concerns, particularly in the northeastern region where the Boko Haram insurgency has been active.'
     },
     {name:'Ghana',
         img:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAACUCAMAAADLemePAAAAh1BMVEXRBSUAaz/60gkCBQHKACfopxb71QgAY0H+1AbHtiAAAAD/2QlDNwL+1gn/3QkXEwHBogfamBW4nQV8aAbqxggeGQFtXATzzAlYSgTApgeUfQZLPgPSsge0lwc6MAKukgfevQlgUASFcAWfhwbLqwgRDQEnIQIxKQK7rCCRjSDRwyAAaEFyYgWgIhojAAAC+ElEQVR4nO2aW3OjMAxG2WSXZeXYUCAhDYRw6X3z/3/fmlzZhLSd6UgdM995SuoH5YyFJbl4HgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4Vn6OGu+XKHd3svE8XxIVx0o0oDeRJEuSTDSgqJ5O5/NUS0aU1YuIovHqmQXR1khGFNVTNJ2SkowoqaeiTi+S9JPUs7lp9RaS2Smop7Oy0yszwcNFUE+tw04vXAtmp+TuJdbO+iWj3D2dLvd6S8HKLqen7mmvR/dy2SmYnKudnfVbycUU09NpftTL5bJTTC8o6KhHRSAVVUxPHXOzy06xh49Hz1dXmPlZb26u132WH8Kjt56Vs0tOdtbvarGcrVl+CI+ejpZ0ybTH1eKSaQxkevZUmvwv9B5EScr0NHIdLXqy+awf0WbCVSn4Tk5T1Z8RJKorvhGJsTCoSRN+6EdhM2EsE5x1L9Bx+YEflbHmrPG8Zd23U8I7gsQ+PTB3LYFpbycoha1hbs/YmzLzkA9vIFH+wH7twt9zqrQZ8iNquIpdD4GWWvvRtR9R5AuMRRITg86Gdk/kwkxCz7RDeq3EfaeIXj6kl49ET6dDtYFCiSsJAT0z2FzbRlpg+yR2r6ae1PljPYrd08V5UO+PtTQr+P0Eyvo5N+kxjh9PX2gzhrKeNacLwKdM6+zpdCHY8L9GwK6nq2c6HJUrZRvoQK0OByk9V+zZya4XRAeZPFI7G62iQx2kiP06l13P3/3bi2hbnZ40VW13CUoJz+VmD/5nrzMhavsNtPbb/V/Zg3Prda8L2KG8uCjhpujGeP7XCLj1TG1LXZJdaagssQs1d+PCnpz2gNwEA0dIEGzskcodnVnP5mZ+6/jXVc6enV7Ailk0Rt1aVKZZGN743h9WXl7f3lt+e33hje/95uXvl5a/jPdj1EDPZaDnMtBzGei5DPRcBnouAz2XgZ7LQM9loOcy0HMZ6LkM9FwGei4DPZeBnstAz2Wg5zLQcxnouQz0XAZ6LgM9lxm53j+z+LpirM4vgwAAAABJRU5ErkJggg==',
+        Category: 'Accra',
         popu:'32.83 million (2021)',
         info:'Ghana is a country in West Africa known for its stable democracy, vibrant culture, and economic growth. Its capital is Accra. Ghana gained independence from colonial rule in 1957. It has a diverse population and English is the official language. The economy relies on agriculture, mining (especially gold), and services. While Ghana has made progress, it still faces challenges like poverty and environmental issues.'  
     },
     {name:'Argentina',
         img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fha.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Argentina.svg&psig=AOvVaw2sJNU5n8rVq2Xf0dHBYDOq&ust=1708597604844000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIiHt6acvIQDFQAAAAAdAAAAABAE',
+        Category: 'Buenos Aires',
         popu:'45.81 million (2021)',
         info:'Argentina is a country located in South America, known for its rich cultural heritage, diverse landscapes, and passion for soccer. Buenos Aires is its capital and largest city. Argentina is famous for its tango music and dance, as well as its delicious cuisine, including steak and wine. The country boasts stunning natural wonders such as the Andes mountains, Iguazú Falls, and the expansive Pampas grasslands. Argentina has a mixed economy, with agriculture, industry, and services sectors contributing to its GDP. It is a major exporter of agricultural products such as soybeans and beef.The country has a complex political history, marked by periods of instability and military rule. However, it has made strides towards democracy and has a strong tradition of civic engagement.'
     },
@@ -109,6 +113,11 @@ const countries = [
         info:'Nigeria is a country located in West Africa, bordering the Gulf of Guinea to the south. It is the most populous country in Africa and the seventh most populous country in the world. Nigeria is known for its diverse cultures, ethnic groups, and languages, with over 250 ethnic groups and languages spoken. Abuja is the capital city of Nigeria, while Lagos is its largest city and commercial capital. Nigeria has a rich cultural heritage, with various traditional festivals, music, dance, and cuisine. The Nigerian economy is one of the largest in Africa, driven primarily by oil and gas exports. However, the country also faces challenges such as corruption, poverty, infrastructure deficits, and security concerns, particularly in the northeastern region where the Boko Haram insurgency has been active.'
     }
 ]
+
+countries.forEach((countryName)=>{
+    countryName.names =`<div class="text-center"><img class="mx-auto" src="${countries.img}" width="40%" alt=""></div><h1 class="text-center" style="color: blue; margin-bottom: 30px;">${countries.name}</h1>`
+    country.Category = `<div class="d-flex mb-2"><div><span class="fs-4 mt-5">Capital:</span><br><span class="fs-3 fw-bold text-primary">${country.Category}</span></div><div class="ms-auto"><span class="fs-4 mt-5">Population :</span><br><span class="fs-3 fw-bold text-primary"> ${country.popu}</span></div></div>`;
+})
 
 // Function to render filtered results
 function renderResults(results) {
