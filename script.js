@@ -93,13 +93,15 @@ const countries = [
         info:'The United Kingdom (UK) is a country in Europe, consisting of four constituent countries: England, Scotland, Wales, and Northern Ireland. Its capital and largest city is London. The UK has a rich history, diverse culture, and significant global influence. Key industries include finance, manufacturing, healthcare, education, and tourism. Recent challenges include Brexit, the process of leaving the European Union.'
     },
     {name:'Poland',
-        img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Poland.svg&psig=AOvVaw1UMRTxbIv9bzXrp7AW1xXe&ust=1708601233339000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNjr0dypvIQDFQAAAAAdAAAAABAE',
+        img:'https://upload.wikimedia.org/wikipedia/en/archive/1/12/20111003025458%21Flag_of_Poland.svg',
+        Category:'Warsaw',
         popu:'37.75 million (2021)',
-        info:'Nigeria is a country located in West Africa, bordering the Gulf of Guinea to the south. It is the most populous country in Africa and the seventh most populous country in the world. Nigeria is known for its diverse cultures, ethnic groups, and languages, with over 250 ethnic groups and languages spoken. Abuja is the capital city of Nigeria, while Lagos is its largest city and commercial capital. Nigeria has a rich cultural heritage, with various traditional festivals, music, dance, and cuisine. The Nigerian economy is one of the largest in Africa, driven primarily by oil and gas exports. However, the country also faces challenges such as corruption, poverty, infrastructure deficits, and security concerns, particularly in the northeastern region where the Boko Haram insurgency has been active.'
+        info:'Poland is a country in Central Europe, with Warsaw as its capital. It has a diverse landscape and a population of over 38 million people. The economy is the largest in Central Europe, with industries like manufacturing, finance, and technology. Poland has a rich cultural heritage and joined the European Union in 2004. Challenges include unemployment and environmental issues.'
     },
     {name:'Belgium',
-        img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Nigeria_%2528state%2529.svg&psig=AOvVaw0X_u2olwh2MIqBO_QB2vdq&ust=1708592185480000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJje2NaIvIQDFQAAAAAdAAAAABAE',
-        popu:'213.4 million (2021)',
+        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1182px-Flag_of_Belgium.svg.png',
+        Category:'Brussels',
+        popu:'11.59 million (2021)',
         info:'Nigeria is a country located in West Africa, bordering the Gulf of Guinea to the south. It is the most populous country in Africa and the seventh most populous country in the world. Nigeria is known for its diverse cultures, ethnic groups, and languages, with over 250 ethnic groups and languages spoken. Abuja is the capital city of Nigeria, while Lagos is its largest city and commercial capital. Nigeria has a rich cultural heritage, with various traditional festivals, music, dance, and cuisine. The Nigerian economy is one of the largest in Africa, driven primarily by oil and gas exports. However, the country also faces challenges such as corruption, poverty, infrastructure deficits, and security concerns, particularly in the northeastern region where the Boko Haram insurgency has been active.'
     },
     {name:'Cameroon',
