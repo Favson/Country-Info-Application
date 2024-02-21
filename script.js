@@ -198,6 +198,6 @@ searchInput.addEventListener('input', function () {
     filterResults(this.value);
 });
 
-
+// Initial rendering
 filterResults('');
 
