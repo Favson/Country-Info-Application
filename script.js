@@ -180,8 +180,8 @@ function renderResults(results) {
             });
             resultItem.style.cursor = "pointer"; 
         });
-    }
-}
+    };
+};
 
 // Function to perform filtering
 function filterResults(query) {
